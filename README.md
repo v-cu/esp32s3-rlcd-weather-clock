@@ -77,3 +77,7 @@ This module is **not particularly battery-friendly**. With the screen on, it dra
 ## Hardware
 
 - [Waveshare ESP32-S3-RLCD-4.2](https://www.waveshare.com/esp32-s3-rlcd-4.2.htm)
+
+## 3D-printed case
+
+The snap-on cover shown in the photo is available on MakerWorld: [Snap-on cover for Waveshare ESP32-S3-RLCD-4.2](https://makerworld.com/pl/models/3069911-snap-on-cover-for-waveshare-esp32-s3-rlcd-4-2#profileId-3455833)
