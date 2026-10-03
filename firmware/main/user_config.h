@@ -14,5 +14,8 @@
 #define ESP32_I2C_SDA_PIN   GPIO_NUM_13
 #define ESP32_I2C_SCL_PIN   GPIO_NUM_14
 #define KEY_BUTTON_PIN      GPIO_NUM_18
+#define BOOT_BUTTON_PIN     GPIO_NUM_0
+
+#define APP_FW_VERSION      "1.2.0"
 
 #endif

@@ -60,7 +60,7 @@ static esp_err_t read_battery_mv(int *battery_mv_out)
     return ESP_OK;
 }
 
-static int voltage_to_percent(int mv)
+int Battery_VoltageToPercent(int mv)
 {
     static const struct { int mv; int pct; } curve[] = {
         {4200, 100}, {4100, 95}, {4000, 87}, {3900, 78}, {3800, 63},
@@ -87,7 +87,7 @@ esp_err_t Battery_ReadPercent(int *percent_out)
     esp_err_t err = read_battery_mv(&battery_mv);
     if (err != ESP_OK) return err;
 
-    *percent_out = voltage_to_percent(battery_mv);
+    *percent_out = Battery_VoltageToPercent(battery_mv);
     return ESP_OK;
 }
 
